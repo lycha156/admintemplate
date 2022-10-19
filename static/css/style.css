@@ -124,6 +124,8 @@ body{
     background-clip: border-box;
     border: var(--bs-card-border-width) solid var(--bs-card-border-color);
     border-radius: var(--radio);
+    margin-bottom: 1.25rem;
+    border-top: 3px solid var(--color-tematico-principal);
 }
 
 .card-title{
