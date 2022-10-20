@@ -7,6 +7,9 @@
     --color-tematico-principal: #859aff;
 }
 
+/* FONT */
+
+/* POPPINS */
 @font-face {
     font-family: poppins-regular;
     src: url(../fonts/Poppins-Regular.ttf);
@@ -17,10 +20,22 @@
     src: url(../fonts/Poppins-Bold.ttf);
   }
 
+/* IBM PLEX SANS */
+@font-face {
+    font-family: ibm-regular;
+    src: url(../fonts/ibm_plex_sans/IBMPlexSans-Regular.ttf);
+  }
+
+@font-face {
+    font-family: ibm-bold;
+    src: url(../fonts/ibm_plex_sans/IBMPlexSans-Bold.ttf);
+  }
+
+
 /* TOP BAR */
 
 html *{
-    font-family: poppins-regular !important;
+    font-family: ibm-regular !important;
 }
 
 .top-bar{
@@ -131,7 +146,7 @@ body{
 .card-title{
     font-size: 20px;
     margin: 0 0 7px 0;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
     font-weight: 500;
     color: #515151;
 }
@@ -158,6 +173,11 @@ body{
 table tbody tr:hover{
     background-color: var(--table-hover-bg-color);
     color: var(--table-hover-color);
+}
+
+th{
+    border-bottom: 2px solid #859aff;
+    font-size: 18px;
 }
 
 /* ALERTS */
